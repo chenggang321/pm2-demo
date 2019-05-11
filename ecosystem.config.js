@@ -19,11 +19,11 @@ module.exports = {
 
     deploy: {
         production: {
-            user: 'Administrator',
-            host: '47.94.208.33',
+            user: 'mac',
+            host: '192.168.2.100',
             ref: 'origin/master',
             repo: 'git@github.com:chenggang321/pm2-demo.git',
-            path: 'C:\\Users\\Administrator\\Desktop\\pm2-demo',
+            path: '/Users/mac/Desktop/project/pm2-demo/pm2-demo',
             ssh_options: "StrictHostKeyChecking=no",
             env: {
                 "NODE_ENV": "production"
