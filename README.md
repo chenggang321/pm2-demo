@@ -36,8 +36,10 @@ ssh -T git@github.com
 vim ~/.ssh/authorized_keys
 2.然后使用 cat ~/.ssh/id_rsa.pub 复制本地的public key 粘贴进去
 ```
-    
+
 2. 安装node.js pm2
 3. 在github上建立仓库
 4. 使用密钥配置服务器,本地,github三者无密码登录
 5. 配置pm2 的部署配置文件
+
+pm2 deploy ecosystem.config.js production setup
